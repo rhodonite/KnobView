@@ -155,7 +155,7 @@ public class KnobView extends ImageView {
         canvas.drawArc(arcRect, START_ANGLE, MAX_SWEEP_ANGLE, false, progressBgPaint);
         drawProgress(canvas);
         drawDrawables(canvas);
-        String str = getProgress() + "";
+        //String str = getProgress() + "";
         //canvas.drawText(str,wheelWidth/2,(wheelHeight/2)+(45/2),mTextPaint);
     }
 
